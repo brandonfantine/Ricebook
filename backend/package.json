@@ -1,0 +1,38 @@
+{
+  "name": "hw6-backend-brandonfantine",
+  "version": "1.0.0",
+  "description": "Backend for COMP 431 - RiceU, F23",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiceWebDevCourse/hw6-backend-brandonfantine.git"
+  },
+  "author": "Brandon Fantine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RiceWebDevCourse/hw6-backend-brandonfantine/issues"
+  },
+  "homepage": "https://github.com/RiceWebDevCourse/hw6-backend-brandonfantine#readme",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.41.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "es6-promise": "^4.2.8",
+    "express": "^4.18.2",
+    "express-mongoose": "^0.1.0",
+    "isomorphic-fetch": "^3.0.0",
+    "jasmine-node": "^3.0.0",
+    "mongoose": "^8.0.0",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "jasmine": "^5.1.0"
+  },
+  "scripts": {
+    "test": "jasmine",
+    "start": "nodemon index.js"
+  }
+}

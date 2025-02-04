@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="Tests for our testuser" errors="0" tests="5" failures="0" time="0.561" timestamp="2023-11-14T23:32:21">
+  <testcase classname="Tests for our testuser" name="Should create a profile for a test user" time="0.272"></testcase>
+  <testcase classname="Tests for our testuser" name="Should log in a registered user" time="0.185"></testcase>
+  <testcase classname="Tests for our testuser" name="Should add a new article" time="0.024"></testcase>
+  <testcase classname="Tests for our testuser" name="Should update status headline" time="0.063"></testcase>
+  <testcase classname="Tests for our testuser" name="Should logout the user" time="0.016"></testcase>
+</testsuite>
+</testsuites>
